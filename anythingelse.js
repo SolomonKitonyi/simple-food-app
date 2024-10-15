@@ -3,9 +3,17 @@ let student = {
     age: 41,
     greet: function(greeting) {
         console.log(`${greeting} ${this.name}`)
+
+        //this arrow function inherits this from the parent student
+        const sayHi = ()=> {
+            console.log(`Hello ${this.name}`)
+        }
+        sayHi()
     }
     
 }
+//calling greet function to show case arrow functions inherits parent's context
+student.greet("Hi")
 let tm = {
     name:"Sam Tomashi"
 }
