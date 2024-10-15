@@ -1,0 +1,40 @@
+{
+    "foods":[
+        {
+            "name":"Chapati",
+            "id":1,
+            "image_url":"https://media.istockphoto.com/id/1398630614/photo/bacon-cheeseburger-on-a-toasted-bun.jpg?s=612x612&w=0&k=20&c=3HWrUVnS-FsJETFlCWnDH2-1ekJ0ic3T3XPrhLjpo98=",
+            "price": 3000
+        },
+        {
+            "name":"Githeri",
+            "id":2,
+            "image_url":"https://media.istockphoto.com/id/1398630614/photo/bacon-cheeseburger-on-a-toasted-bun.jpg?s=612x612&w=0&k=20&c=3HWrUVnS-FsJETFlCWnDH2-1ekJ0ic3T3XPrhLjpo98=",
+            "price": 3500
+        },
+        {
+            "name":"Chips",
+            "id":3,
+            "image_url":"https://media.istockphoto.com/id/1011857262/photo/fresh-pears-blue-cheese-salad-with-vegetable-green-mix-walnuts-cranberry-healthy-food.jpg?s=612x612&w=0&k=20&c=JWP9nyXFo6sYLJUnkskWlDKvzdrhMDo6mfHFlZQaupo=",
+            "price": 300
+        },
+        {
+            "name":"Samosa",
+            "id":4,
+            "image_url":"https://media.istockphoto.com/id/1011857262/photo/fresh-pears-blue-cheese-salad-with-vegetable-green-mix-walnuts-cranberry-healthy-food.jpg?s=612x612&w=0&k=20&c=JWP9nyXFo6sYLJUnkskWlDKvzdrhMDo6mfHFlZQaupo=",
+            "price": 500
+        },
+        {
+            "name":"Chips",
+            "id":5,
+            "image_url":"https://media.istockphoto.com/id/1011857262/photo/fresh-pears-blue-cheese-salad-with-vegetable-green-mix-walnuts-cranberry-healthy-food.jpg?s=612x612&w=0&k=20&c=JWP9nyXFo6sYLJUnkskWlDKvzdrhMDo6mfHFlZQaupo=",
+            "price": 3500
+        },
+        {
+            "name":"Pasta",
+            "id":6,
+            "image_url":"https://media.istockphoto.com/id/1011857262/photo/fresh-pears-blue-cheese-salad-with-vegetable-green-mix-walnuts-cranberry-healthy-food.jpg?s=612x612&w=0&k=20&c=JWP9nyXFo6sYLJUnkskWlDKvzdrhMDo6mfHFlZQaupo=",
+            "price": 8000
+        }
+    ]
+}
