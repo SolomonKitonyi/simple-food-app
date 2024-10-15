@@ -1,14 +1,26 @@
 const baseUrl = "http://localhost:3000/foods"
 document.addEventListener("DOMContentLoaded",() =>{
-    fetch(baseUrl)
-    .then(res => res.json())
-    .then(data => {
-        
-        data.forEach(food => {
-            displayFood(food)
+    async function getData(){
+        try {
+            let response = await fetch(baseUrl)
+            let data =  await response.json()
+            data.forEach(food => {
+                displayFood(food)
         })
-    })
-    .catch(err => console.log(err))
+        }catch(err){
+            console.log(err)
+        }
+    }
+    getData()
+    // fetch(baseUrl)
+    // .then(res => res.json())
+    // .then(data => {
+        
+    //     data.forEach(food => {
+    //         displayFood(food)
+    //     })
+    // })
+    // .catch(err => console.log(err))
 
     let addForm = document.getElementById("add-form")
     addForm.addEventListener("submit",(e) =>{
