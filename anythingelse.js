@@ -5,4 +5,5 @@ console.log("Bye5")
 // },3000)
 console.log("Bye3")
 
-
+//crud //http verbs/methods - post,get,put/patch,delete create,
+//read update and delete
