@@ -1,0 +1,22 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+.food-div {
+    background-color: beige;
+    border: 1px solid black;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+#image {
+    width: 350px;
+}
+#foods-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
